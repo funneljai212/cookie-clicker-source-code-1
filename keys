@@ -1,0 +1,5 @@
+document.onkeyup = function(e) {
+  if (e.which == 77) {
+    Game.Earn(cookies=1000);
+  } 
+};
