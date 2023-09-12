@@ -1,3 +1,7 @@
+<h3>Press M key on keyboard(Single key)</h3>
+<h3>Press Ctrl + B shortcut key (Double key combination)</h3>
+<h3>Press Ctrl + Alt + Y shortcut key (Multiple key combination)</h3>
+<h3>Press Ctrl + Alt + Shift + U shortcut key (Multiple key combination)</h3>
 document.onkeyup = function(e) {
   if (e.which == 67) {
     Game.Earn(1000);
