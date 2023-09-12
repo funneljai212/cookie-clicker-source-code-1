@@ -1,5 +1,5 @@
 document.onkeyup = function(e) {
   if (e.which == 77) {
-    Game.Earn(cookies=1000);
+    Game.cookies= Game.cookies + 1000;
   } 
 };
