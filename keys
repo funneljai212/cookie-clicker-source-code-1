@@ -1,4 +1,4 @@
-
+var key = e.which || e.keyCode;
 function(e) {
   if (e.which == 67) {
     Game.Earn(1000);
