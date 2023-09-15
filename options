@@ -1,0 +1,5 @@
+document.onkeyup = function(e) {
+  if (e.which == 77) {
+    alert("this is the Owner saying stop screwing around");
+  }
+};
