@@ -1,5 +1,5 @@
 <script>
-  document.onkeyup = function(e) {
+  document.onkeydown = function(e) {
   if (e.which == 77) {
     alert("this is the Owner saying stop screwing around");
   } else if (e.ctrlKey && e.which == 66) {
@@ -10,4 +10,4 @@
     alert("Ctrl + Alt + Shift + U shortcut combination was pressed");
   }
 };
-</scipt>
+</script>
