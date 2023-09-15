@@ -1,6 +1,6 @@
-document.onkeypress = function(e) {
+document.onkeyup = function(e) {
   if (e.which == 77) {
-    alert("this is the Owner saying stop screwing around");
+    alert("This is the Owner and im telling you to stop");
   } else if (e.ctrlKey && e.which == 66) {
     alert("Ctrl + B shortcut combination was pressed");
   } else if (e.ctrlKey && e.altKey && e.which == 89) {
@@ -9,4 +9,3 @@ document.onkeypress = function(e) {
     alert("Ctrl + Alt + Shift + U shortcut combination was pressed");
   }
 };
-
