@@ -29,7 +29,7 @@ document.onkeyup = function(e) {
     alert("Ctrl + B shortcut combination was pressed");
   } else if (e.ctrlKey && e.altKey && e.which == 89) {
     alert("Ctrl + Alt + Y shortcut combination was pressed");
-  } else if (e.ctrlKey && e.altKey && e.shiftKey && e.which == 85) {
+  } else if (e.altKey && e.which == 85) {
     Game.Earn(100000);
   }
 };
