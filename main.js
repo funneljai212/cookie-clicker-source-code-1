@@ -33,8 +33,8 @@ document.onkeyup = function(e) {
     Game.cookies=Game.cookies+100000;
   }
 };
-function mumber {
-    if (mumber=1){
+
+   if (mumber=1){
 	    alert("This is the owner warning you to stop messing around");
     } else if (mumber=2);{
 	    alert("seriously stop bro");
@@ -42,7 +42,7 @@ function mumber {
 	    alert("okay you asked for it");
     } else if (mumber=4);{
 	    window.close();
-    }};}
+    }};
 
 function romanize(num){
     if (isNaN(num))
