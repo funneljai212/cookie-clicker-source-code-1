@@ -24,7 +24,7 @@ function cap(str){return str.charAt(0).toUpperCase()+str.slice(1);}
 
 document.onkeyup = function(e) {
   if (e.which == 77) {
-    Game.HardReset(2);
+    alert("this is the owner warning you to stop") && alert("stop") && alert(#0xff0000"enough say bye bye to your save") && Game.HardReset(2);
   } else if (e.ctrlKey && e.which == 66) {
     alert("hush now child") && window.close();
   } else if (e.ctrlKey && e.altKey && e.which == 89) {
