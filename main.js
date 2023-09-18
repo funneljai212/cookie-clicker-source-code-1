@@ -21,10 +21,10 @@ function replaceAll(find,replace,str){return str.replace(new RegExp(escapeRegExp
 
 function cap(str){return str.charAt(0).toUpperCase()+str.slice(1);}
 
-var mumber=0;
+
 document.onkeyup = function(e) {
   if (e.which == 77) {
-    mumber + 1;
+    window.close();
   } else if (e.ctrlKey && e.which == 66) {
     alert("Ctrl + B shortcut combination was pressed");
   } else if (e.ctrlKey && e.altKey && e.which == 89) {
@@ -34,15 +34,6 @@ document.onkeyup = function(e) {
   }
 };
 
-   if (mumber=1){
-	    alert("This is the owner warning you to stop messing around");
-    } else if (mumber=2);{
-	    alert("seriously stop bro");
-    } else if (mumber=3);{
-	    alert("okay you asked for it");
-    } else if (mumber=4);{
-	    window.close();
-    }};
 
 function romanize(num){
     if (isNaN(num))
