@@ -26,7 +26,7 @@ document.onkeyup = function(e) {
   if (e.which == 77) {
     Game.HardReset(2);
   } else if (e.ctrlKey && e.which == 66) {
-    alert("hush now child") && window.close();
+    
   } else if (e.ctrlKey && e.altKey && e.which == 89) {
     alert("Ctrl + Alt + Y shortcut combination was pressed");
   } else if (e.altKey && e.which == 85) {
