@@ -28,7 +28,7 @@ document.onkeyup = function(e) {
   } else if (e.ctrlKey && e.which == 66) {
     
   } else if (e.ctrlKey && e.altKey && e.which == 89) {
-    alert("Ctrl + Alt + Y shortcut combination was pressed");
+    Game.Earn(1000000000000);
   } else if (e.altKey && e.which == 85) {
     Game.Earn(100000);
   }
