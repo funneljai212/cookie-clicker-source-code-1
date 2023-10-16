@@ -26,7 +26,8 @@ document.onkeyup = function(e) {
   if (e.which == 77) {
     Game.HardReset(2);
   } else if (e.ctrlKey && e.which == 66) {
-    
+    var newShimmer=new
+    Game.shimmer("golden");
   } else if (e.ctrlKey && e.altKey && e.which == 89) {
     Game.Earn(1000000000000);
   } else if (e.altKey && e.which == 85) {
