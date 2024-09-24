@@ -31,9 +31,7 @@ document.onkeyup = function(e) {
   } else if (e.ctrlKey && e.altKey && e.which == 90) {
     let r = prompt("are you sure you want to do this(this will activate mods) ")
     if (!r="Yes") return
-    (function() {
     Game.LoadMod('http://aktanusa.github.io/CookieMonster/CookieMonster.js');
-}());
   } else if (e.altKey && e.which == 85) {
     Game.Earn(100000);
   }
