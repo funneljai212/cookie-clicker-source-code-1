@@ -29,9 +29,6 @@ document.onkeyup = function(e) {
     var newShimmer=new
     Game.shimmer("golden");
   } else if (e.ctrlKey && e.altKey && e.which == 90) {
-    let r = prompt("are you sure you want to do this(this will activate mods) ")
-    if (!r="Yes") return
-    Game.LoadMod('http://aktanusa.github.io/CookieMonster/CookieMonster.js');
   } else if (e.altKey && e.which == 85) {
     Game.Earn(100000);
   }
